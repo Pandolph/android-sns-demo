@@ -6,15 +6,28 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/loginWithQQ"
+        android:id="@+id/login_with_qq"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/qq_auth" />
 
     <Button
-        android:id="@+id/loginWithSina"
+        android:id="@+id/login_with_sina"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sina_auth" />
+
+    <Button
+        android:id="@+id/login_with_qq_sso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qq_auth_sso" />
+
+    <Button
+        android:id="@+id/login_with_sina_sso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sina_auth_sso" />
+
 
 </LinearLayout>
